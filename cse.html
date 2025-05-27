@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSE Domains and Career Options</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Background video styles */
+    .bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    header, nav, footer {
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0.5rem 1rem;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .domain-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 10rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .domain-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 10px;
+      padding: 1.5rem;
+      flex: 1 1 400px;
+      max-width: 500px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #222;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      margin-top: 1.2rem;
+      color: #333;
+    }
+
+    .job {
+      margin-bottom: 1.2rem;
+    }
+
+    .job-title {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .salary {
+      color: green;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="invideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Header -->
+  <header>
+    <h1>CSE Domains and Career Options</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#aiml">AI / ML</a>
+    <a href="#cybersecurity">Cybersecurity</a>
+    <a href="#datascience">Data Science</a>
+    <a href="#softwaredev">Software Development</a>
+    <a href="#cloud">Cloud Computing</a>
+    <a href="#iot">IoT</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="domain-container">
+
+    <!-- AI/ML -->
+    <section class="domain-card" id="aiml" align="center">
+      <h2>AI / ML (Artificial Intelligence and Machine Learning)</h2>
+      <p>Focuses on building systems that learn from data using algorithms and models like deep learning, NLP, and computer vision.</p>
+      <h3>Job Roles</h3>
+      <div class="job"><div class="job-title">Machine Learning Engineer – <span class="salary">₹8–25 LPA</span></div><p>Builds ML models to automate tasks and create intelligent systems.</p></div>
+      <div class="job"><div class="job-title">Data Scientist – <span class="salary">₹10–30 LPA</span></div><p>Uses data analytics, ML, and statistics to solve business problems.</p></div>
+      <div class="job"><div class="job-title">AI Research Scientist – <span class="salary">₹12–35 LPA</span></div><p>Explores novel AI methods in research labs or academia.</p></div>
+      <div class="job"><div class="job-title">NLP Engineer – <span class="salary">₹8–20 LPA</span></div><p>Works with human language data to build systems like chatbots or translators.</p></div>
+    </section>
+
+    <!-- Cybersecurity -->
+    <section class="domain-card" id="cybersecurity">
+      <h2>Cybersecurity</h2>
+      <p>Protects systems and data from threats, breaches, and unauthorized access using firewalls, encryption, and ethical hacking.</p>
+      <h3>Job Roles</h3>
+      <div class="job"><div class="job-title">Security Analyst – <span class="salary">₹6–15 LPA</span></div><p>Monitors security incidents and maintains protection systems.</p></div>
+      <div class="job"><div class="job-title">Penetration Tester – <span class="salary">₹8–20 LPA</span></div><p>Performs ethical hacking to detect vulnerabilities.</p></div>
+      <div class="job"><div class="job-title">Security Architect – <span class="salary">₹15–35 LPA</span></div><p>Designs secure system architecture and access control mechanisms.</p></div>
+      <div class="job"><div class="job-title">Incident Responder – <span class="salary">₹7–18 LPA</span></div><p>Handles cyberattacks and restores systems after a breach.</p></div>
+    </section>
+
+    <!-- Data Science -->
+    <section class="domain-card" id="datascience">
+      <h2>Data Science</h2>
+      <p>Extracts insights from data using analytics, machine learning, and visualization to drive decision-making.</p>
+      <h3>Job Roles</h3>
+      <div class="job"><div class="job-title">Data Analyst – <span class="salary">₹5–12 LPA</span></div><p>Processes and interprets data to answer key business questions.</p></div>
+      <div class="job"><div class="job-title">Business Intelligence Analyst – <span class="salary">₹6–14 LPA</span></div><p>Creates reports and dashboards to support strategic decisions.</p></div>
+      <div class="job"><div class="job-title">Data Engineer – <span class="salary">₹8–20 LPA</span></div><p>Builds scalable data infrastructure and ETL pipelines.</p></div>
+      <div class="job"><div class="job-title">Machine Learning Scientist – <span class="salary">₹10–28 LPA</span></div><p>Develops ML techniques to analyze and interpret complex datasets.</p></div>
+    </section>
+
+    <!-- Software Development -->
+    <section class="domain-card" id="softwaredev">
+      <h2>Software Development</h2>
+      <p>Involves designing, coding, testing, and maintaining software applications across web, mobile, and desktop platforms.</p>
+      <h3>Job Roles</h3>
+      <div class="job"><div class="job-title">Frontend Developer – <span class="salary">₹5–15 LPA</span></div><p>Creates the user-facing parts of websites and apps using HTML, CSS, and JavaScript frameworks.</p></div>
+      <div class="job"><div class="job-title">Backend Developer – <span class="salary">₹6–18 LPA</span></div><p>Handles logic, databases, and server-side operations behind applications.</p></div>
+      <div class="job"><div class="job-title">Full Stack Developer – <span class="salary">₹7–20 LPA</span></div><p>Works on both frontend and backend, providing end-to-end application development.</p></div>
+      <div class="job"><div class="job-title">Mobile App Developer – <span class="salary">₹6–16 LPA</span></div><p>Builds applications for Android/iOS using native or cross-platform tools.</p></div>
+    </section>
+
+    <!-- Cloud Computing -->
+    <section class="domain-card" id="cloud">
+      <h2>Cloud Computing</h2>
+      <p>Provides scalable computing resources over the internet using platforms like AWS, Azure, and Google Cloud.</p>
+      <h3>Job Roles</h3>
+      <div class="job"><div class="job-title">Cloud Engineer – <span class="salary">₹7–20 LPA</span></div><p>Manages and maintains cloud infrastructure and services.</p></div>
+      <div class="job"><div class="job-title">Cloud Solutions Architect – <span class="salary">₹15–35 LPA</span></div><p>Designs cloud systems and oversees migration and integration.</p></div>
+      <div class="job"><div class="job-title">DevOps Engineer – <span class="salary">₹8–25 LPA</span></div><p>Automates deployment, testing, and scaling in cloud environments.</p></div>
+      <div class="job"><div class="job-title">Site Reliability Engineer – <span class="salary">₹12–30 LPA</span></div><p>Ensures uptime, reliability, and incident response in cloud apps.</p></div>
+    </section>
+
+    <!-- IoT -->
+    <section class="domain-card" id="iot">
+      <h2>Internet of Things (IoT)</h2>
+      <p>Connects physical devices with the internet to collect, transmit, and act on data from sensors and embedded systems.</p>
+      <h3>Job Roles</h3>
+      <div class="job"><div class="job-title">IoT Developer – <span class="salary">₹6–14 LPA</span></div><p>Builds apps for connected devices using IoT platforms and cloud APIs.</p></div>
+      <div class="job"><div class="job-title">Embedded Systems Engineer – <span class="salary">₹5–15 LPA</span></div><p>Develops firmware and low-level code for microcontrollers and sensors.</p></div>
+      <div class="job"><div class="job-title">IoT Architect – <span class="salary">₹12–30 LPA</span></div><p>Designs scalable IoT solutions from sensors to cloud.</p></div>
+      <div class="job"><div class="job-title">Firmware Developer – <span class="salary">₹6–16 LPA</span></div><p>Writes software that directly interacts with device hardware.</p></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 CSE Careers Guide. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
